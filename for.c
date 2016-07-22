@@ -2,12 +2,12 @@
 
 int main()
 {
-int n,sum=o,i;
+int a,total=o,i;
 scanf("%d",&n);
-for(i=0;i<=n;i++)
+for(i=0;i<=a;i++)
 {
-sum=sum+i;
+total=total+i;
 }
-printf("%d",sum);
+printf("%d",total);
 return 0;
 }
