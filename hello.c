@@ -5,7 +5,8 @@ int main()
 int i;
 for(i=0;i<=5;i++)
 {
-printf("Hello World");
+printf("Hello");
 }
+
 return 0;
 }
