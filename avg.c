@@ -1,12 +1,17 @@
 #include<stdio.h>
 int main()
 {
-int a[5]={1,2,3,4,5},sum,i,avg;
-for(i=0;i<5;i++)
+int a[10];
+int n,sum,i;
+float avg;
+scanf("%d",&n);
+for(i=1;i<=5;i++)
 {
+    scanf("%d",&a[i]);
 sum=sum+a[i];
 }
 avg=sum/5;
-printf("%d",avg);
+printf("%d",sum);
+printf("\n %f",avg);
 return 0;
 }
